@@ -1,0 +1,16 @@
+<section>
+  <ul>
+    <% if (products) { products.forEach(product => { %>
+    <li id="productList">
+      <h1><%= product?.productName %></h1>
+      <h3><%= product?.info %></h3>
+      <h2><%= product?.price %></h2>
+      <a href="/product/<%= product?.productId %>/delete">Delete</a>
+    </li>
+    <div></div>
+    <% })} %>
+  </ul>
+  <% if (section) { %>
+  <button type="button" onclick="fun()" class="addProduct">Add product</button>
+  <% } %>
+</section>

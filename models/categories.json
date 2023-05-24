@@ -1,0 +1,22 @@
+[
+  {
+    "categoryId": "1",
+    "categoryName": "Sut mahsulotlari"
+  },
+  {
+    "categoryId": "2",
+    "categoryName": "Go'sht mahsulotlari"
+  },
+  {
+    "categoryId": "3",
+    "categoryName": "Non mahsulotlari"
+  },
+  {
+    "categoryId": "4",
+    "categoryName": "Mevalar"
+  },
+  {
+    "categoryId": "5",
+    "categoryName": "Sabzavotlar"
+  }
+]

@@ -1,0 +1,9 @@
+<nav class="navbar">
+  <ul>
+    <% categories.forEach(category => { %>
+    <a href="/categories/<%= category.categoryId %>">
+      <%= category?.categoryName %>
+    </a>
+    <% }) %>
+  </ul>
+</nav>
